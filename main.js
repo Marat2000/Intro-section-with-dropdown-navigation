@@ -6,8 +6,13 @@ var main=document.getElementsByTagName('main')[0];
 var menuopen=document.getElementById('menubutton');
 var menuclose=document.getElementById('menuclose');
 var menu=document.getElementById('menubar');
+var screenWidth=screen.width;
 
-window.onresize=function(){location.reload()};
+
+window.onresize=function(){
+	if(screenWidth!=screen.width)
+	location.reload()};
+
 
 
 
