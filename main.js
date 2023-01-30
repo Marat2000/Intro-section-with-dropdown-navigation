@@ -22,7 +22,7 @@ nav[1].style.display="none";
 	if(screen.width<=800){
 menu.style.transform="translateY(10%)";
 				menu.style.height="0%";
-				menu.style.marginTop="-100%";}
+				menu.style.marginTop="-200%";}
 
 
 {
@@ -36,7 +36,7 @@ menu.style.transform="translateY(10%)";
 		if(screen.width<=800){
 				menu.style.transform="translateY(10%)";
 				menu.style.height="0%";
-				menu.style.marginTop="-100%";
+				menu.style.marginTop="-200%";
 				menu.style.transform="translateX(10rem)";
 				menuopen.style.display="inline";
 				menuclose.style.display="none";
@@ -123,7 +123,7 @@ menuclose.onclick=()=>
 	{
 				menu.style.transform="translateY(10%)";
 				menu.style.height="0%";
-				menu.style.marginTop="-100%";
+				menu.style.marginTop="-200%";
 				menu.style.transform="translateX(10rem)";
 				menuopen.style.display="inline";
 				menuclose.style.display="none";
